@@ -1,0 +1,17 @@
+To create a username -->git config --global user.name."name"
+
+To create a user mail -->git config --global user.mail."mail"
+
+To see the current users then -->git config --list
+
+To clone project into our github clone --> git clone "link of your project folder in github"
+
+To go to particular path -->cd File name
+
+
+To create a folder --> mkdir foldername
+
+To create a file --> touch one.txt
+
+To clear the commands-->clear
+
