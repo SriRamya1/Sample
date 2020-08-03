@@ -15,3 +15,18 @@ To create a file --> touch one.txt
 
 To clear the commands-->clear
 
+To goto previous directory -->cd ..
+
+To get the status-->git status
+
+To add all the files into the repository -->git add --a (or) git add. 
+
+Steps to add files into repository::
+	First we add,then commit then push
+
+To commit -->git commit -m "name to commit"
+
+To push --> git push origin master
+
+To see the logs -->git log (or) git log --oneline
+
