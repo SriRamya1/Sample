@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style type="text/css">
+           .flex{
+               display: flex;
+               /* flex-direction: row;
+               justify-content:space-evenly;
+               flex-wrap: wrap; */
+               /* align-items: stretch; */
+               height:1100px;
+               flex-wrap:wrap;
+               align-content: space-around;
+               
+
+
+           }
+           .flex div{
+                padding:5%;
+                margin:2%;
+                border:2px solid #ddd;
+                background-color: skyblue;
+                font-size:120px;
+
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="flex">
+            <div style="order:3">A</div>
+            <div style="order:4">B</div>
+            <div style="order:1">C</div>
+            <div style="order:2">D</div> 
+            <div>1</div>
+            <div>2</div>
+            <div style="flex-basis: 200px;">3</div>
+            <div style="flex-grow: 3;">4</div>
+            <!-- <div>A</div>
+            <div>B</div>
+            <div>C</div>
+            <div>D</div> 
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>A</div>
+            <div>B</div>
+            <div>C</div>
+            <div>D</div> 
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div> -->
+
+        </div>
+    </body>
+</html>

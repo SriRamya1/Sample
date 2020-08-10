@@ -1,0 +1,19 @@
+.image img
+{
+    width:30%;
+    height:30%;
+    border:2px solid black;
+    align-items: center;
+    padding: 2%;
+    margin: 2% 6% 7% 8%;
+    border-radius: 5%;
+    box-shadow:2px  4px 6px red;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    background-color: burlywood;
+}
+*
+{
+    background-color:blue;
+}

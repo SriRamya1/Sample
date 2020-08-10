@@ -1,0 +1,27 @@
+Responsive Web Design:
+    ViewPort
+    Flexbox
+    Media queries
+
+ViewPort : Same content can be viewed from dektop and mobile also.If we give viewport then it can be viewed from any device.Information of the browser.
+           Users visible area of webpage.It varies with the device.According to the device it will occupies. 
+    <meta name="viewport" content="device-width,initial-scale=1.0">
+
+FlexBox : Where we place the content depends on Flexbox.
+          The flex layout allows responsive elements within a container to be automatically arranged depending upon screen size.  
+        
+        flex-wrap : wrap;/nowrap/wraprevse  -->compulsory for the content  to wrap in webpage
+        
+        display : flex;
+        
+        flex-direction : column/row/row-reverse/column-reverse;
+        
+        justify-content : space-around/space-between/flex-start/flex-end/center;
+
+        align-items : flex-start/flex-end/stretch/center
+
+        align-content : flex-start/flex-end/stretch/space-between/space-around.
+
+         horizantal --> justify content
+         vertical  --> align-items
+         
