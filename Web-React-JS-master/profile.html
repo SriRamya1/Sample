@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css"> -->
+        <style>
+            .main
+            {
+                display:flex;
+                flex-direction: row;
+                width:100%;
+                border:2px solid maroon;
+            }
+            .child1,.child2,.child3{
+                width :30%;
+                padding:1%;
+                margin:1%;
+                border:2px solid blue;
+                text-align: center;
+
+            }
+            .navbar ul,li{
+                padding:5px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand bg-warning ">
+            <ul class="navbar-nav">
+                <li class="navbar-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="profile.html">Profile</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="main.html">Main</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="login.html">Login</a>
+                </li>
+                 
+            </ul>
+        </nav>
+
+
+
+        <div class="main">
+            <div class="child1 rounded">
+                <h2>Card1</h2>
+                <div class="card rounded">
+                    <img src="images.png" class="img-card" height=200px; />
+                    <div class="card-body">
+                        <h1 class="card-title"> Card Title1</h1>
+                        <h4 class="card-text">Some description of the card or other can be placed here</h4>
+                        <button class="btn btn-primary rounded"> Button1</button>
+                    </div>
+                </div>
+            </div>
+            <div class="child2 rounded">
+                <h2>Card2</h2>
+                <div class="card">
+                    <img src="images.png" class="img-card" height=200px; />
+                    <div class="card-body">
+                        <h1 class="card-title"> Card Title1</h1>
+                        <h4 class="card-text">Some description of the card or other can be placed here</h4>
+                        <button class="btn btn-primary rounded"> Button2</button>
+                    </div>
+                </div>
+            </div>
+            <div class="child3 rounded">
+                <h2>Card3</h2>
+                <div class="card">
+                    <img src="images.png" class="img-card" height=200px; />
+                    <div class="card-body">
+                        <h1 class="card-title"> Card Title1</h1>
+                        <h4 class="card-text">Some description of the card or other can be placed here</h4>
+                        <button class="btn btn-primary rounded"> Button3</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

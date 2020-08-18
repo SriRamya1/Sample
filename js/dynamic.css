@@ -1,0 +1,12 @@
+#name
+{
+    background-color:#f4f4f4;
+}
+.age
+{
+    background-color: green;
+}
+table, tr,td{
+    border:2px solid red;
+    border-collapse: collapse;
+}

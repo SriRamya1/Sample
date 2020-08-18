@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            //var a =10;
+            // if(a%2==0)
+            // {
+            //     document.writeln("even number");
+            // } 
+            // else
+            // {
+            //     document.writeln("odd number");
+            // }
+            
+            // var a=700;
+            // var b=100;
+            // var c=30;
+            // if(a>b && a>c) 
+            // {
+            //     document.writeln("a is big");
+            // }   
+            // else if(b>c)
+            // {
+            //     document.writeln("b is big");
+            // }
+            // else{
+            //     document.writeln("c is big");
+            // }
+            function data()
+            {    
+                //var a = document.getElementsByClassName("name")[0].value;
+                var a = document.getElementById("name").value;
+                if(a%2==0)
+                {
+                    document.writeln("even number");
+                } 
+                else
+                {
+                    document.writeln("odd number");
+                }
+            }
+
+            
+        </script>
+    </head>
+    <body>
+        <input type="text" class="name" id="name" name="">
+        <button onclick="data()" >Click</button>
+        
+    </body>
+</html>

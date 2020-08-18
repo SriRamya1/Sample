@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>
+            Login Page
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- JS, Popper.js, and jQuery -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+                            
+        <style >
+            .navbar ul,li{
+                padding:5px;
+            }
+            .jumbotron
+            {
+                width:30%;
+                margin-left: auto;
+                margin-right: auto;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand bg-warning ">
+            <ul class="navbar-nav">
+                <li class="navbar-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="profile.html">Profile</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="main.html">Main</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="login.html">Login</a>
+                </li>
+
+                                
+                <div class="dropdown">
+                    <button class="btn-primary dropdown-toggle" data-toggle="dropdown">View</button>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-item">
+                        <a href="login.html">Login</a>
+                        </div>
+                        <div class="dropdown-item">
+                        <a href="profile.html">Profile</a>
+                        </div>
+                        <div class="dropdown-item">
+                        <a href="main.html">Main</a>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+
+        <h1>Login</h1>
+        <div class="jumbotron">
+            <form class="form-group">
+                <label>Username:</label><br>
+                <input type="text" placeholder="Enter username" class="form-controls"><br>
+                <label>Password:</label><br>
+                <input type="password" placeholder="Enter password" class="form-controls"><br><br>
+               
+                <input type="checkbox" class="form-check form-controls">
+                <label class="form-check-label">Check me</label><br>
+                <button class="btn-primary"> Login</button>
+                <button class="btn-primary">Sign Up</button>
+
+            </form>
+        </div>
+    </body>
+</html>

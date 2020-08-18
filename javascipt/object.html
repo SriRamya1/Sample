@@ -1,0 +1,31 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script type="text/javascript">
+        //     student={
+        //         id : 53,
+        //         name:"sri",
+        //         branch :'it'
+
+        //     }
+        //     document.writeln(student.id+ " "+ student.name + " " +student.branch);
+        
+        // var student = new Object();
+        // student.id="53";
+        // student.name="sri";
+        // student.branch="it"
+        // document.writeln(student.id+ " "+ student.name + " " +student.branch);
+
+           function student(id,name,branch)
+           {
+               this.id = id;
+               this.name = name;
+               this.branch = branch;
+           } 
+           e=new student(53,"sri","it");
+           document.writeln(e.id + " " +e.name + " " +e.branch);
+        </script>
+    </body>
+</html>

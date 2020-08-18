@@ -1,0 +1,45 @@
+{
+    "details":
+    {
+        "name" : "Andhra Pradesh State Skill Development Corporation",
+        "age" : 5,
+        "image": "Image.png",
+        "courses" : ["JS","python","ml"]
+    },
+    "trainers" :
+    [
+        {
+        "name" : "Sri Ramya" ,
+        "phone" : "999999999",
+        "email" : "sri@gmail.com",
+        "salary" : "70000",
+        "experience" : "5 years"
+
+        },
+        {
+            "name" : "Navya" ,
+            "phone" : "8888888",
+            "email" : "navya@gmail.com",
+            "salary" : "80000",
+            "experience" : "6 years"
+    
+        },
+        {
+            "name" : "Ravi" ,
+            "phone" : "77777777",
+            "email" : "ravi@gmail.com",
+            "salary" : "70000",
+            "experience" : "5 years"
+    
+        },
+        {
+            "name" : "Ammu" ,
+            "phone" : "66666666",
+            "email" : "ammu@gmail.com",
+            "salary" : "50000",
+            "experience" : "2 years"
+    
+        }
+
+    ]
+}
