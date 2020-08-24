@@ -1,0 +1,123 @@
+{
+    "profiles":[
+        {
+            "details":
+            {
+                "image": "images.png",
+                "name" : "User1" ,
+                "email" : "xxxxx@gmail.com",
+                "phone" : "xxxxxxxxxxxxx",        
+                "address": "xxxxxxxx,xxxxxxx,xxxxxxxx"
+
+                
+            },
+            
+            "details2":{
+                "career": " To build a career in growing organization where can I get the opportunity to prove my abilities by accepting the challenges.",
+            
+                "technical" :
+                    {
+                        "p" : "C Programming, C++ Programming, Java, Python ",
+                        "w" : "HTML, CSS, JS, PHP" ,
+                        "d": "Mysql ,Oracle "
+                    },
+
+                "education":[{
+                        "course":"B. Tech (Information Technology)",
+                        "institution": "XXXXX ENGINEERING COLLEGE",
+                        "university": "Andhra University",
+                        "per": "9.37",
+                        "year": "2020"
+                    },
+                    {
+                        "course":"Intermediate (MPC)",
+                        "institution": "ADITYA JUNIOR COLLEGE",
+                        "university": "Intermediate Board of Education" ,
+                        "per": "98.0",
+                        "year": "2016"
+                    },
+                    {
+                        "course":"SSC",
+                        "institution": "XXXXX EM School",
+                        "university": "Secondary Board of Education",
+                        "per": "9.7",
+                        "year": "2014"
+                    }
+
+                    ],                
+
+                    "achievements": {
+                        "one":"This is achievement 1 user1.",
+                            "two":" This is achievement 2 user1. ",
+                            "three":"This is achievement 3 user1. "
+                        },
+                "hobbies":
+                    {
+                            "one": "This is hobbies one user1. ",
+                            "two" :"This is hobbies two user1."
+                    }
+                }
+            },
+                   
+        {
+            "details":
+            {
+                "image": "images.png",
+                "name" : "User2" ,
+                "email" : "yyyyyy@gmail.com",
+                "phone" : "yyyyyyyyyyyyyy",        
+                "address": "yyyyyyyy,yyyyyy,yyyyy"
+    
+                
+            },
+            
+            "details2":{
+                "career": " To build a career in growing organization where can I get the opportunity to prove my abilities by accepting the challenges.",
+            
+                "technical" :
+                    {
+                        "p" : "C Programming, C++ Programming, Java, Python ",
+                        "w" : "HTML, CSS, JS, PHP" ,
+                        "d": "Mysql ,Oracle "
+                    },
+    
+                "education":[{
+                        "course":"B. Tech (Information Technology)",
+                        "institution": "XXXXX ENGINEERING COLLEGE2",
+                        "university": "Andhra University",
+                        "per": "8.9",
+                        "year": "2022"
+                    },
+                    {
+                        "course":"Intermediate (MPC)",
+                        "institution": "ADITYA JUNIOR COLLEGE",
+                        "university": "Intermediate Board of Education2" ,
+                        "per": "98.0",
+                        "year": "2018"
+                    },
+                    {
+                        "course":"SSC",
+                        "institution": "XXXXX EM School",
+                        "university": "Secondary Board of Education2",
+                        "per": "9.7",
+                        "year": "2016"
+                    }
+    
+                    ],                
+    
+                "achievements": {
+                "one":"This is achievement 1 user2.",
+                    "two":" This is achievement 2 user2. ",
+                    "three":"This is achievement 3 user2. "
+                },
+                "hobbies":
+                    {
+                           
+                        "one": "This is hobbies one user2. ",
+                        "two" :"This is hobbies two user2."
+                    }
+                }                  
+            }
+    ]
+    
+}
